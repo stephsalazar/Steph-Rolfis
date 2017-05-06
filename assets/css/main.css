@@ -4,8 +4,6 @@
    padding: 0;
 }
 
-
-
 * {
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
@@ -29,8 +27,14 @@ header {
   background-color: #3D5B99;
 }
 
+.alinearCentrado {
+  text-align: center;
+}
 
+.textoSubtituloHome{
+  font-family: "helvetica", sans-serif;
 
+}
 /* CLEARFIX */
 .row:before, .row:after {
  content: "";
@@ -46,7 +50,6 @@ header {
  padding: 12px;
  float: left;
 }
-
 
 .col-1 {
  /* (1/12)x100 */
@@ -99,4 +102,12 @@ header {
 
 .col-12 {
  width: 100%;
+}
+
+
+/*estilos particulares*/
+
+#home {
+  background: #E9EBEE;
+  height: 500px;
 }
